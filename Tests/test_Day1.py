@@ -16,11 +16,11 @@ class Test(TestCase):
         self.assertEqual(test_object, expected_value)
 
     def test_main(self):
-        test_object_part1 = part1(read_to_array_int("../Source/day1.txt"))
+        test_object_part1 = part1(read_to_array_int("../Days/Source/day1.txt"))
         expected_value = 633216
         self.assertEqual(test_object_part1, expected_value)
 
-        test_object_part2 = part2(read_to_array_int("../Source/day1.txt"))
+        test_object_part2 = part2(read_to_array_int("../Days/Source/day1.txt"))
         expected_value = 68348924
         self.assertEqual(test_object_part2, expected_value)
 
