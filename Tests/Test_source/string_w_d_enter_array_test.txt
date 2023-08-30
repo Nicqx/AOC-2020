@@ -1,0 +1,6 @@
+egy:1
+
+ketto:2
+harom:3
+
+negy:alma
