@@ -1,4 +1,4 @@
-import Days.Day1, Days.Day2, Days.Day3, Days.Day4, Days.Day5, Days.Day6
+import Days.Day1, Days.Day2, Days.Day3, Days.Day4, Days.Day5, Days.Day6, Days.Day7
 from Utility.read_to_array_int import read_to_array_int
 from Utility.read_to_array_string import read_to_array_string
 from Utility.read_to_array_string_w_d_enter import read_to_array_string_w_d_enter
@@ -26,3 +26,7 @@ print("Day5/2: " + str(Days.Day5.part2(arr)))
 arr = read_to_array_string_w_d_enter("Days/Source/day6.txt")
 print("Day6/1: " + str(Days.Day6.part1(arr)))
 print("Day6/2: " + str(Days.Day6.part2(arr)))
+
+arr = read_to_array_string("Days/Source/day7.txt")
+print("Day7/1: " + str(Days.Day7.part1(arr)))
+print("Day7/2: " + str(Days.Day7.part2(arr)))
